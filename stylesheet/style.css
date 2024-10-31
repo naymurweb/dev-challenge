@@ -150,3 +150,32 @@ p {
   text-align: center;
   padding: 32px;
 }
+
+/* current target */
+
+.skills-card {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.card h4 {
+  margin: 28px 0 15px 0;
+}
+
+.card p {
+  margin-bottom: 25px;
+}
+
+.card2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.card3 {
+  background: rgba(255, 223, 0, 0.05);
+}
