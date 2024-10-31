@@ -43,7 +43,7 @@ p {
 }
 
 .section-gap {
-  margin: 90px 0;
+  margin: 100px 0;
 }
 
 .container {
@@ -178,4 +178,19 @@ p {
 
 .card3 {
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* next target  */
+.skill-card {
+  display: flex;
+  gap: 25px;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+
+.skill-card P {
+  margin: 10px 0 25px 0;
 }
