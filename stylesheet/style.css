@@ -1,4 +1,4 @@
-/* google fonts/ reset default /custom element */
+/* google fonts/ reset default style /custom element style*/
 
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -23,11 +23,16 @@ h2 {
 }
 
 h3 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+h4 {
   font-size: 24px;
   font-weight: 700;
 }
 
-h4 {
+h5 {
   font-size: 20px;
   font-weight: 600;
 }
@@ -76,4 +81,28 @@ p {
   border: none;
   background-color: transparent;
   text-decoration: underline;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0;
+}
+
+.navbar button {
+  border-radius: 8px;
+}
+
+/* hero section */
+.hero-section {
+  padding: 26px 0 45px 0;
+  text-align: center;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section .container p {
+  margin: 25px 0 35px 0;
 }
