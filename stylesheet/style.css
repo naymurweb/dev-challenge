@@ -83,6 +83,14 @@ p {
   text-decoration: underline;
 }
 
+.hero-content {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.hero-content h2 {
+  margin-bottom: 25px;
+}
+
 /* navbar */
 .navbar {
   display: flex;
@@ -115,15 +123,6 @@ p {
   padding: 80px 100px;
 }
 
-.content {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.content h2 {
-  margin-bottom: 25px;
-}
-
 .details-box {
   border-radius: 16px;
   background: linear-gradient(
@@ -141,4 +140,13 @@ p {
 
 .box-content p {
   margin: 16px 0 32px 0;
+}
+
+/* inspiration section */
+
+.inspiration-video {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  text-align: center;
+  padding: 32px;
 }
